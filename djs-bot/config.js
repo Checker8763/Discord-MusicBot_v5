@@ -8,7 +8,7 @@ module.exports = {
 	 * @type {string} */
 	name: "InsertNameHereBot",
 	/**
-	 * Database option (mongodb, postgresql) https://www.prisma.io/docs/reference/database-reference/connection-urls
+	 * Database option (mongodb, postgresql, sqlite) https://www.prisma.io/docs/reference/database-reference/connection-urls
 	 * @type {string} */
 	database: process.env.DATABASE || "postgresql",
 	/** 
